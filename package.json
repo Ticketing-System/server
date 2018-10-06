@@ -1,0 +1,35 @@
+{
+  "name": "ticketying-system-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch & nodemon dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ticketing-System/server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ticketing-System/server/issues"
+  },
+  "homepage": "https://github.com/Ticketing-System/server#readme",
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "global": "^4.3.2",
+    "lodash": "^4.17.11",
+    "ts-node": "^7.0.1",
+    "ts-node-dev": "^1.0.0-pre.30",
+    "tslint": "^5.11.0"
+  }
+}
